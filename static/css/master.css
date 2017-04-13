@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   .form-subscribe .form-subscribe-twitter a {
     display: inline-block;
     padding-left: 21px;
-    background: url("/assets/img/common/icon-twitter.png") no-repeat left 4px; }
+    background: url("/img/common/icon-twitter.png") no-repeat left 4px; }
 
 #toggle-form-subscribe {
   text-align: center;
