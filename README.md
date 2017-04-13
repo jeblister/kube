@@ -4,7 +4,7 @@
 
 I create this theme  based on the `Version 6.5.2` [Kube Framework](https://imperavi.com/kube/). 
 
-![kube hugo landingPage]()
+![kube hugo landingPage](https://cldup.com/RjWtdJZNae.png)
 
 # Demo
 
@@ -78,7 +78,7 @@ It also assumes you want to display three types of content `docs` and `blog` and
 
 The theme works with other content types, but docs pages work best when grouped under `docs`. When using the `docs` content type you'll have a customized list page sorted by `weight` and the default list page for all documentation. Here's an example:
 
-![Custom List docs Page]()
+![Custom List docs Page](https://cldup.com/8k1nU8TLuU.png)
 
 
 
