@@ -5,6 +5,7 @@ tags = ["markdown","prototype", "hugo"]
 categories = ["design"]
 description = "An idea to make website protoype with markdown"
 draft = false
+weight = 30
 +++
 
 <img data-src="https://cldup.com/3tov0aCFh8.png" class="lazyload">

@@ -4,7 +4,8 @@ draft = false
 weight = 180
 description = "Smoothly and reliably collapse elements for extra convenience"
 title = "Collapse"
-bref="A demo to collapsable elements"
+bref = "A demo to collapsable elements"
+
 +++
 
 <h3 class="section-head" id="h-base"><a href="#h-base">Base</a></h3>
