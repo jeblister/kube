@@ -12,7 +12,7 @@ toc = true
 <p>Toggleme works on mobile devices as well as on desktops. To see Toggleme in action, just resize this window or open this page on a mobile device.</p>
 <div class="example">
   <div class="show-sm">
-    <a data-component="toggleme" data-loaded="true" data-target="#navbar" href="#"><b>Toggle</b></a>
+    <a data-component="toggleme" data-target="#navbar" href="#"><b>Toggle</b></a>
   </div>
   <div class="hide-sm" id="navbar">
     <div id="navbar-demo">
@@ -53,7 +53,7 @@ toc = true
 </div>
 <h3 class="section-head" id="h-usage"><a href="#h-usage">Usage</a></h3>
 <div class="example">
-  <p><button class="button outline" data-component="toggleme" data-loaded="true" data-target="#togglebox-target-1" data-text="Hide Me">Show Me</button></p>
+  <p><button class="button outline" data-component="toggleme" data-target="#togglebox-target-1" data-text="Hide Me">Show Me</button></p>
   <div class="togglebox-box hide" id="togglebox-target-1">
     <h3>Ok, I'm opened. Now hide me</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -67,7 +67,7 @@ toc = true
 </div>
 <h3 class="section-head" id="h-multiple-targets"><a href="#h-multiple-targets">Multiple targets</a></h3>
 <div class="example">
-  <p><button class="button primary outline" data-component="toggleme" data-loaded="true" data-target="#togglebox-target-3, #togglebox-target-4" data-text="Hide Me">Show Me</button></p>
+  <p><button class="button primary outline" data-component="toggleme" data-target="#togglebox-target-3, #togglebox-target-4" data-text="Hide Me">Show Me</button></p>
   <div class="togglebox-box hide" id="togglebox-target-3">
     <h3>Ok, I'm opened. Now hide me</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
