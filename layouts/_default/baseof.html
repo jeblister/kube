@@ -18,7 +18,7 @@
   <meta name="robots" content="noindex">
   {{ end }}
 
-    {{ partial "meta/name-author" . }}
+  {{ partial "meta/name-author" . }}
   {{ template "_internal/opengraph.html" . }}
   {{ partial "meta/ogimage" . }}
   <!-- Site verification -->
@@ -34,19 +34,19 @@
 
   {{ partial "favicon" . }}
 
-  <link href="/css/font.css" rel="stylesheet" type="text/css">
-  <link href="/css/kube.min.css" rel="stylesheet" type="text/css">
-  <link href="/css/kube.legenda.css" rel="stylesheet" type="text/css">
-  <link href="/css/highlight.css" rel="stylesheet" type="text/css">
-  <link href="/css/master.css" rel="stylesheet" type="text/css">
-  <link href="/css/kube.demo.css" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/font.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/kube.min.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/kube.legenda.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/highlight.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/master.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/kube.demo.css" | relURL }}" rel="stylesheet" type="text/css">
 <!-- Your own theme here -->
- <link href="/css/custom.css" rel="stylesheet" type="text/css">
+ <link href="{{ "/css/custom.css" | relURL }}" rel="stylesheet" type="text/css">
 <!-- js vendor -->
-  <script src="/js/jquery-2.1.4.min.js" type="text/javascript">
+  <script src="{{ "/js/jquery-2.1.4.min.js" | relURL }}" type="text/javascript">
   </script>
 
-  <script type="text/javascript" src="/js/tocbot.min.js"></script>
+  <script type="text/javascript" src="{{ "/js/tocbot.min.js" | relURL }}"></script>
 </head>
 
 
@@ -56,11 +56,11 @@
   <footer>{{ block "footer" . }}{{ end }}</footer>
 
 
-  <script src="/js/kube.js" type="text/javascript">
+  <script src="{{ "/js/kube.js" | relURL }}" type="text/javascript">
   </script>
-  <script src="/js/kube.legenda.js" type="text/javascript">
+  <script src="{{ "/js/kube.legenda.js" | relURL }}" type="text/javascript">
   </script>
-  <script src="/js/master.js" type="text/javascript">
+  <script src="{{ "/js/master.js" | relURL }}" type="text/javascript">
   </script>
 </body>
 
