@@ -174,4 +174,4 @@ MIT
 
 This is the second theme I've made for Hugo, so I'm sure I've done some things wrong or assumed too much. If you have ideas or things that should be fixed, please let me know.
 
-- [Mohamed JEBLI](http://findme.surge.sh) [@jebli_7](http://twitter.com/jebli_7)
+- [Mohamed JEBLI](http://about.elemnts.org/) [@jebli_7](http://twitter.com/jebli_7)
