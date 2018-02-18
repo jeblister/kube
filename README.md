@@ -92,7 +92,7 @@ In this case you would want to add `author = "your name"` variable like your nam
 Verify your site with several webmaster tools including Google, Bing, Alexa and Yandex. To allow verification of your site with any or all of these providers simply add the following to your `config.toml` and fill in their respective values:
 
 ```toml
-[params.seo.webmaster_verifications]
+[Params.seo.webmaster_verifications]
   google = "" # Optional, Google verification code
   bing = "" # Optional, Bing verification code
   alexa = "" # Optional, Alexa verification code
