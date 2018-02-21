@@ -165,10 +165,10 @@ There's only one rule...there are no rules.
 
 MIT
 
-## Credit 
+## Credits
 
-- [kube framework] (https://imperavi.com/kube/)
-- [after dark theme] (https://github.com/comfusion/after-dark)
+- [kube framework](https://imperavi.com/kube/)
+- [after dark theme](https://github.com/comfusion/after-dark)
 
 ## Contact
 
