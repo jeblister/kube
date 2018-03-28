@@ -70,7 +70,7 @@ There are a few concepts this theme employs to make a personal documentation sit
 
 ```
 
-It also assumes you want to display three types of content `docs` and `blog` and some pages : the `faq`, `company` and `sign-in` pages and and display links to this pages in the menu. This guide will take you through the steps to configure your documentation site to use the theme.
+It also assumes you want to display three types of content `docs` and `blog` and some pages : the `faq`, `company` and `sign-in` pages and display links to this pages in the menu. This guide will take you through the steps to configure your documentation site to use the theme.
 
 ### Configuring you website
 
