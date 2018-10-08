@@ -1674,7 +1674,7 @@ button:hover,
   .hide-sm {
     display: none !important; } }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .show-sm {
     display: none !important; } }
 
