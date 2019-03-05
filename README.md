@@ -6,10 +6,6 @@ I create this theme  based on the `Version 6.5.2` [Kube Framework](https://imper
 
 ![kube hugo landingPage](https://cldup.com/RjWtdJZNae.png)
 
-# Demo
-
-To see this theme in action, check out [kube project](http://kube.elemnts.org) which is rendered with this theme and some content for documentation and blog posts.
-
 ## Features
 
 - Mobile-first Design : Every element in kube is mobile-first and fully embraces latest and greatest tech.
