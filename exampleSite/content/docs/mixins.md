@@ -10,12 +10,12 @@ toc = true
 
 <h3 class="section-head" id="h-get-started"><a href="#h-get-started">Get Started</a></h3>
 <p>Kube has been designed to help you with web development, that's why it's so easy to use Kube when building websites. To move forward quickly and efficiently, just link <code>kube.scss</code> from Kube package: this file contains variables, mixins and everything you need to simplify daily routine tasks.</p>
-<p>For example, import <code>kube.scss</code> into your <code>master.scss</code> styles file, which you will later compile into <code>master.css</code></p>
-<pre class="code skip"><span class="hljs-comment">// master.scss</span>
+<p>For example, import <code>kube.scss</code> into your <code>main.scss</code> styles file, which you will later compile into <code>main.css</code></p>
+<pre class="code skip"><span class="hljs-comment">// main.scss</span>
 @<span class="hljs-keyword">import</span> <span class="hljs-string">"dist/scss/kube.scss"</span>;
 </pre>
-<p>Now all Kube's variables and mixins are readily available in <code>master.scss</code>, and you can use them whenever needed.</p>
-<pre class="code skip"><span class="hljs-comment">// master.scss</span>
+<p>Now all Kube's variables and mixins are readily available in <code>main.scss</code>, and you can use them whenever needed.</p>
+<pre class="code skip"><span class="hljs-comment">// main.scss</span>
 @<span class="hljs-keyword">import</span> <span class="hljs-string">"dist/scss/kube.scss"</span>;
 
 <span class="hljs-comment">// use mixins</span>
