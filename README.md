@@ -2,7 +2,7 @@
 
 `kube` Kube is a professional and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog.
 
-I create this theme based on the `Version 6.5.2` [Kube Framework](https://kube7.imperavi.com/).
+I create this theme based on [Kube Framework](https://kube7.imperavi.com/).
 
 ![kube hugo landingPage](https://cldup.com/RjWtdJZNae.png)
 
