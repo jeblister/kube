@@ -1,8 +1,8 @@
 # kube Theme for Hugo
 
-`kube` Kube is a professional  and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog.
+`kube` Kube is a professional and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog.
 
-I create this theme  based on the `Version 6.5.2` [Kube Framework](https://kube6.imperavi.com/). 
+I create this theme based on the `Version 6.5.2` [Kube Framework](https://kube7.imperavi.com/).
 
 ![kube hugo landingPage](https://cldup.com/RjWtdJZNae.png)
 
@@ -39,27 +39,24 @@ Inside the folder of your Hugo site run:
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) for Hugo.
 
-
 Copy custom archetypes to your site:
 
 ```shell
 cp themes/kube/archetypes/* archetypes
 ```
 
+Next, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo. It serves as an example setup for your blog.
 
-Next, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo. It serves as an example setup for your blog. 
-
-Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary. 
+Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary.
 
 Hugo includes a development server, so you can view your changes as you go :
 
-``` sh
+```sh
 hugo server -w
 ```
 
 Now you can go to [localhost:1313](http://localhost:1313) and the `kube`
 theme should be visible.
-
 
 ## Getting Started
 
@@ -80,12 +77,9 @@ The theme works with other content types, but docs pages work best when grouped 
 
 ![Custom List docs Page](https://cldup.com/8k1nU8TLuU.png)
 
-
-
 #### Defining yourself as the Author
 
 In this case you would want to add `author = "your name"` variable like your name to your post's Front Matter.
-
 
 #### Webmaster Verification
 
@@ -144,16 +138,14 @@ To learn more about how crawlers use this feature read [block search indexing wi
 To add your own theme css or override existing CSS without having to change theme files do the following:
 
 1. Create a `style.css` in your site's `layouts/static/css directory` or use `custom.css` file in 'themes/kube/static/css/custom.css`
-1. Add link to this file in 'themes/kube/layouts/_default/baseof.html'.
+1. Add link to this file in 'themes/kube/layouts/\_default/baseof.html'.
 
 Default `style block` :
 
 ```html
 <!-- Your own theme here -->
- <link href="/css/custom.css" rel="stylesheet" type="text/css">
-
+<link href="/css/custom.css" rel="stylesheet" type="text/css" />
 ```
-
 
 ## Contributing
 
@@ -167,11 +159,11 @@ MIT
 
 ## Credits
 
-- [kube framework](https://imperavi.com/kube/)
+- [kube framework](https://kube7.imperavi.com/)
 - [after dark theme](https://github.com/comfusion/after-dark)
 
 ## Contact
 
 This is the second theme I've made for Hugo, so I'm sure I've done some things wrong or assumed too much. If you have ideas or things that should be fixed, please let me know.
 
-- [Mohamed JEBLI](http://about.elemnts.org/) [@jebli_7](http://twitter.com/jebli_7)
+- [Mohamed JEBLI](http://about.elemnts.net/) [@jebli_7](http://twitter.com/jebli_7)
