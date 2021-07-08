@@ -7,6 +7,8 @@ title = "Messages"
 bref = "Messages are an essential part of modern web and messages in Kube look nice"
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-usage"><a href="#h-usage">Usage</a></h3>
 <div class="example">
   <div class="message open" data-component="message" data-loaded="true">
@@ -156,3 +158,4 @@ bref = "Messages are an essential part of modern web and messages in Kube look n
     <span class="hljs-comment">// do something</span>
 })
 </pre>
+{{< /rawhtml >}}

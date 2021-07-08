@@ -8,6 +8,8 @@ bref= "Default pagination in Kube is organized using lists, with visual cues for
 toc =true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-base"><a href="#h-base">Base</a></h3>
 <div class="example">
   <nav class="pagination">
@@ -194,3 +196,4 @@ toc =true
 <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
 </pre>
 </div>
+{{< /rawhtml >}}

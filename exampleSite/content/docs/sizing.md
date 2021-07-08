@@ -8,6 +8,8 @@ bref="Helper tools for elements width and height."
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-width"><a href="#h-width">Width</a></h3>
 <div class="example demo-sizing">
   <div class="w5">
@@ -97,3 +99,4 @@ toc = true
 <div class="example">
   .min-w5 — .min-w100
 </div>
+{{< /rawhtml >}}

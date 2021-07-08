@@ -8,6 +8,8 @@ bref= "Toggleme is a great way to add a binary option to either display some con
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-demo"><a href="#h-demo">Demo</a></h3>
 <p>Toggleme works on mobile devices as well as on desktops. To see Toggleme in action, just resize this window or open this page on a mobile device.</p>
 <div class="example">
@@ -45,10 +47,11 @@ toc = true
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"navbar"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"hide-sm"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+
 </pre>
 </div>
 <h3 class="section-head" id="h-usage"><a href="#h-usage">Usage</a></h3>
@@ -61,8 +64,9 @@ toc = true
   <pre class="code skip">&lt;button data-component=<span class="hljs-string">"toggleme"</span> data-target=<span class="hljs-string">"#togglebox-target"</span> data-<span class="hljs-built_in">text</span>=<span class="hljs-string">"Hide Me"</span>&gt;Show Me&lt;/button&gt;
 
 &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"togglebox-target"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"hide"</span>&gt;
-    ...
+...
 &lt;/<span class="hljs-keyword">div</span>&gt;
+
 </pre>
 </div>
 <h3 class="section-head" id="h-multiple-targets"><a href="#h-multiple-targets">Multiple targets</a></h3>
@@ -79,12 +83,13 @@ toc = true
   <pre class="code skip">&lt;button data-component=<span class="hljs-string">"toggleme"</span> data-target=<span class="hljs-string">"#togglebox-target-3, #togglebox-target-4"</span> data-<span class="hljs-built_in">text</span>=<span class="hljs-string">"Hide Me"</span>&gt;Show Me&lt;/button&gt;
 
 &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"togglebox-target-1"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"hide"</span>&gt;
-    ...
+...
 &lt;/<span class="hljs-keyword">div</span>&gt;
 
 &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"togglebox-target-2"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"hide"</span>&gt;
-    ...
+...
 &lt;/<span class="hljs-keyword">div</span>&gt;
+
 </pre>
 </div>
 <h3 class="section-head" id="h-settings"><a href="#h-settings">Settings</a></h3>
@@ -155,3 +160,4 @@ toc = true
 <h5>destroy</h5>
 <pre class="code skip"><span class="hljs-variable">$(</span><span class="hljs-string">'#togglebox-target'</span>).toggleme(<span class="hljs-string">'destroy'</span>);
 </pre>
+{{< /rawhtml >}}

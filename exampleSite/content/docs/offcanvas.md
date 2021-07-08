@@ -8,6 +8,8 @@ bref="Offcanvas makes it look like a menu is sliding from the outside of the pag
 toc= true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-demo"><a href="#h-demo">Demo</a></h3>
 <p>This feature is very easy to set up. It is based on <code>data-component</code> set to <var>offcanvas</var>, <code>data-target</code> set to the menu layer (<var>#offcanvas-right</var> in example below) and a feature-specific <code>data-direction</code> which is required for right menu to be set to <var>right</var>.</p>
 <p><a class="button outline" data-component="offcanvas" data-target="#offcanvas-left" href="#"><i class="kube-menu"></i> Open Left</a> <a class="button outline" data-component="offcanvas" data-direction="right" data-target="#offcanvas-right" href="#">Open Right <i class="kube-menu"></i></a></p>
@@ -58,24 +60,25 @@ toc= true
 <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">data-component</span>=<span class="hljs-string">"offcanvas"</span> <span class="hljs-attr">data-target</span>=<span class="hljs-string">"#offcanvas-left"</span>&gt;</span>Open Left<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"offcanvas-left"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"hide"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
 // Right + Close
 <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">data-component</span>=<span class="hljs-string">"offcanvas"</span> <span class="hljs-attr">data-target</span>=<span class="hljs-string">"#offcanvas-right"</span> <span class="hljs-attr">data-direction</span>=<span class="hljs-string">"right"</span>&gt;</span>Open Right<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"offcanvas-right"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"hide"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"close"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"close"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
 </pre>
 <h3 class="section-head" id="h-settings"><a href="#h-settings">Settings</a></h3>
 <h5>target</h5>
@@ -138,3 +141,4 @@ toc= true
     <span class="hljs-comment">// do something...</span>
 });
 </pre>
+{{< /rawhtml >}}

@@ -8,6 +8,8 @@ bref = 'Forms come in all forms and shapes in Kube, and you can do all sorts of 
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-base"><a href="#h-base">Base</a></h3>
 <p>This is the most basic form with all the basic inputs.</p>
 <div class="example">
@@ -798,3 +800,4 @@ toc = true
 <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
 </pre>
 </div>
+{{< /rawhtml >}}

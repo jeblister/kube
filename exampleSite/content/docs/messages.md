@@ -8,6 +8,8 @@ bref = "Messages are an essential part of modern web, and they can provide inval
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-usage"><a href="#h-usage">Usage</a></h3>
 <div class="example">
   <div class="message open" data-component="message" data-loaded="true">
@@ -157,3 +159,4 @@ toc = true
     <span class="hljs-comment">// do something</span>
 })
 </pre>
+{{< /rawhtml >}}

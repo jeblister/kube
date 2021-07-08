@@ -8,6 +8,8 @@ bref= "Here you can find over a dozen of examples of little tiny utilities, that
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-group"><a href="#h-group">Group</a></h3>
 <p>Combines float elements to group with a clearfix.</p>
 <div class="example">
@@ -122,3 +124,4 @@ toc = true
   <i class="kube-calendar"></i>
   <pre class="code skip">&lt;i <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"kube-calendar"</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span></pre>
 </div>
+{{< /rawhtml >}}

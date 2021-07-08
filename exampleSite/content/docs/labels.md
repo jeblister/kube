@@ -8,6 +8,8 @@ bref = "Labels have all standard Kube styling options available: outline, states
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-base"><a href="#h-base">Base</a></h3>
 <div class="example">
   <span class="label">Default</span> &nbsp; <span class="label success">Success</span> &nbsp; <span class="label error">Error</span> &nbsp; <span class="label warning">Warning</span> &nbsp; <span class="label focus">Focus</span> &nbsp; <span class="label black">Black</span> &nbsp; <span class="example-inverted-box"><span class="label inverted">Inverted</span></span>
@@ -47,5 +49,7 @@ toc = true
 <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"label custom"</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"label badge custom"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"label tag custom"</span>&gt;</span>Tag<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
 </pre>
 </div>
+{{< /rawhtml >}}

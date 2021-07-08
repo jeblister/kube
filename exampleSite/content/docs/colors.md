@@ -8,6 +8,8 @@ bref="Kube has a basic set of colors for text, links, buttons, states and gray p
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head">Text</h3>
 <p>Contrasting black color for headings and less intense dark gray for the text helps to improve readability.</p>
 <div class="example">
@@ -139,3 +141,4 @@ toc = true
     </div>
   </div>
 </div>
+{{< /rawhtml >}}

@@ -7,6 +7,8 @@ toc = true
 bref = "Kube has a lot to offer in terms of extensibility and flexibility, and plugins are the way of doing incredible things without bloating the core. With plugins, you can extend existing features, make them more interactive, or you can crate completely new functionality."
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-plugin"><a href="#h-plugin">Plugin Template</a></h3>
 <p>Here's what a generic plugin looks like. This template gives an overall idea of what you can do with plugins in Kube. Feel free to use this one as a boilerplate for your custom plugins.</p>
 <pre class="code skip">(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">Kube</span>)
@@ -60,6 +62,7 @@ bref = "Kube has a lot to offer in terms of extensibility and flexibility, and p
     Kube.Plugin.autoload(<span class="hljs-string">'Myplugin'</span>);
 
 }(Kube));
+
 </pre>
 <h3 class="section-head" id="h-call"><a href="#h-call">Call</a></h3>
 <p>Calling a plugin is very easy, just add the <code>data-component</code> with the name of your plugin and it will start automatic.</p>
@@ -68,8 +71,9 @@ bref = "Kube has a lot to offer in terms of extensibility and flexibility, and p
 <pre class="code skip"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"my-element"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
-    $(<span class="hljs-string">'#my-element'</span>).myplugin();
+$(<span class="hljs-string">'#my-element'</span>).myplugin();
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
 </pre>
 <h3 class="section-head" id="h-callbacks"><a href="#h-callbacks">Callbacks</a></h3>
 <p>Kube plugins can react on events with callbacks. Whenever you need your plugin to do something in response to an action or an event, just use a callback.</p>
@@ -78,9 +82,10 @@ bref = "Kube has a lot to offer in terms of extensibility and flexibility, and p
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
 $(<span class="hljs-string">'#myplugin'</span>).on(<span class="hljs-string">'show.myplugin'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)
 </span>{
-    <span class="hljs-comment">// do something...</span>
+<span class="hljs-comment">// do something...</span>
 });
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
 </pre>
 <p>All plugin methods and variables are available within the plugin via <var>this</var>:</p>
 <pre class="code skip"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
@@ -91,6 +96,9 @@ $(<span class="hljs-string">'#myplugin'</span>).on(<span class="hljs-string">'sh
 
     <span class="hljs-comment">// call plugin method</span>
     <span class="hljs-keyword">this</span>.method();
+
 });
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
 </pre>
+{{< /rawhtml >}}

@@ -8,6 +8,8 @@ bref= "Tabs in Kube are crafted the way one would expect from the world's best C
 toc= true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-base"><a href="#h-base">Base</a></h3>
 <p>Here's an example of basic tabs setup. Tabs bar is an unordered list, and each tab in tabs bar is a list item. For each tab there's a corresponding div, which contains the body of the tab (it can be any kind of HTML).</p>
 <div class="example">
@@ -60,7 +62,8 @@ toc= true
 
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"tab1"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"tab2"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-    </pre>
+</pre>
+
 </div>
 <h3 class="section-head" id="h-javaScript-behavior"><a href="#h-javaScript-behavior">JavaScript behavior</a></h3>
 <p>Tabs are interactive elements, and can be opened, closed, switched, destroyed and selected programmatically via JavaScript. Try this example, poke around and then have a look at the self-explanatory code example below.</p>
@@ -113,13 +116,13 @@ toc= true
 <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"$('#tabs').tabs('closeAll');"</span>&gt;</span>closeAll<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"tabs"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tabs"</span> <span class="hljs-attr">data-component</span>=<span class="hljs-string">"tabs"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#tab1"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"active"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#tab2"</span>&gt;</span>Shop<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#tab3"</span>&gt;</span>Catalog<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#tab4"</span>&gt;</span>T-Shirts<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#tab5"</span>&gt;</span>Brand<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#tab1"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"active"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#tab2"</span>&gt;</span>Shop<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#tab3"</span>&gt;</span>Catalog<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#tab4"</span>&gt;</span>T-Shirts<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#tab5"</span>&gt;</span>Brand<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"tab1"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -127,6 +130,7 @@ toc= true
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"tab3"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"tab4"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"tab4"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
 </pre>
 </div>
 <h3 class="section-head" id="h-equals"><a href="#h-equals">Equals</a></h3>
@@ -159,6 +163,7 @@ toc= true
 
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"tab1"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"tab2"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
 </pre>
 </div>
 <h3 class="section-head" id="h-livetabs"><a href="#h-livetabs">Livetabs</a></h3>
@@ -177,6 +182,7 @@ toc= true
 
 &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"tab-general"</span> data-title=<span class="hljs-string">"General"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"tab-live"</span>&gt;...&lt;/<span class="hljs-keyword">div</span>&gt;
 &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"tab-additional"</span> data-title=<span class="hljs-string">"Additional"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"tab-live"</span>&gt;...&lt;/<span class="hljs-keyword">div</span>&gt;
+
 </pre>
 </div>
 <h3 class="section-head" id="h-active"><a href="#h-active">Active</a></h3>
@@ -264,6 +270,7 @@ toc= true
 <span class="hljs-regexp">//</span> <span class="hljs-keyword">or</span>
 
 <span class="hljs-variable">$(</span><span class="hljs-string">'#tabs'</span>).tabs(<span class="hljs-string">'open'</span>, <span class="hljs-string">'#tab1'</span>);
+
 </pre>
 <h5>close</h5>
 <pre class="code skip"><span class="hljs-variable">$(</span><span class="hljs-string">'#tabs'</span>).tabs(<span class="hljs-string">'close'</span>, <span class="hljs-number">1</span>);
@@ -271,6 +278,7 @@ toc= true
 <span class="hljs-regexp">//</span> <span class="hljs-keyword">or</span>
 
 <span class="hljs-variable">$(</span><span class="hljs-string">'#tabs'</span>).tabs(<span class="hljs-string">'close'</span>, <span class="hljs-string">'#tab1'</span>);
+
 </pre>
 <h5>closeAll</h5>
 <pre class="code skip"><span class="hljs-variable">$(</span><span class="hljs-string">'#tabs'</span>).tabs(<span class="hljs-string">'closeAll'</span>);
@@ -284,3 +292,4 @@ toc= true
 <h5>destroy</h5>
 <pre class="code skip"><span class="hljs-variable">$(</span><span class="hljs-string">'#tabs'</span>).tabs(<span class="hljs-string">'destroy'</span>);
 </pre>
+{{< /rawhtml >}}

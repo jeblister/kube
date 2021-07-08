@@ -8,6 +8,8 @@ bref =  "Buttons in Kube are minimalistic, designed for instant and convenient c
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-primary"><a href="#h-primary">Primary</a></h3>
 <div class="example">
   <button class="button">Button</button> <a class="button" href="#">Button</a>
@@ -91,6 +93,7 @@ toc = true
 
 <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"button outline"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"kube-search"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"button secondary outline"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"kube-search"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span> Search<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></pre>
+
 </div>
 <h3 class="section-head" id="h-custom"><a href="#h-custom">Custom</a></h3>
 <p>With some Sass magic, you can customize your buttons in a snap. Just include a color class declaration and set the color itself, and you're done.</p>
@@ -105,4 +108,6 @@ toc = true
 <span class="hljs-comment">// html</span>
 &lt;<span class="hljs-keyword">button</span> class=<span class="hljs-string">"button red"</span>&gt;<span class="hljs-keyword">Button</span>&lt;/<span class="hljs-keyword">button</span>&gt;
 &lt;<span class="hljs-keyword">button</span> class=<span class="hljs-string">"button red outline"</span>&gt;<span class="hljs-keyword">Button</span>&lt;/<span class="hljs-keyword">button</span>&gt;</pre>
+
 </div>
+{{< /rawhtml >}}

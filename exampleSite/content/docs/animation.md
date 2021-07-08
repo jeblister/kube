@@ -9,6 +9,8 @@ toc = true
 script = 'animation'
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-slide"><a href="#h-slide">Slide</a></h3>
 <div class="example">
   <div class="demo-animation-wrap">
@@ -161,3 +163,4 @@ script = 'animation'
 </span>{
     <span class="hljs-comment">// code ...</span>
 });</pre>
+{{< /rawhtml >}}

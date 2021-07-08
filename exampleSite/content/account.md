@@ -1,6 +1,9 @@
 +++
 title = "Sign In"
 +++
+
+{{< rawhtml >}}
+
 <form action="" data-component="validate" method="post" class="form form-centered"><input type="hidden" name="authorize-token" value="">
 
     <div class="form-item">
@@ -18,3 +21,5 @@ title = "Sign In"
     <p class="small">If you have any questions about authorization or you're our customer but haven't receive your login credentials, just send us a short email at <b>support@company.com</b> and we'll fix it right away.</p>
 
 </form>
+
+{{< /rawhtml >}}

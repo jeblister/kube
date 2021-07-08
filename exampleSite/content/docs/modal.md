@@ -8,6 +8,8 @@ bref="Modal windows are used for various reasons and purposes. Kube makes the wa
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h4 class="demo-head" id="h-calling">Calling</h4>
 <p>Here you add an actual call to the modal window. Clicking the "Open" button below will launch a <var>modal</var> with content of a <var>#my-modal</var> div. You can use buttons or links to open modals in Kube. Clicking anywhere outside of the modal or hitting <kbd>ESC</kbd> will close the window.</p>
 <div class="example">
@@ -17,12 +19,13 @@ toc = true
 
 // Markup
 &lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">id</span>=<span class="hljs-string">"my-modal"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal-box hide"</span>&gt;
-    &lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal"</span>&gt;
-        &lt;span <span class="hljs-keyword">class</span>=<span class="hljs-string">"close"</span>&gt;&lt;/span&gt;
-        &lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal-header"</span>&gt;Modal Header&lt;/<span class="hljs-keyword">div</span>&gt;
-        &lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal-body"</span>&gt;...&lt;/<span class="hljs-keyword">div</span>&gt;
-    &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal"</span>&gt;
+&lt;span <span class="hljs-keyword">class</span>=<span class="hljs-string">"close"</span>&gt;&lt;/span&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal-header"</span>&gt;Modal Header&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal-body"</span>&gt;...&lt;/<span class="hljs-keyword">div</span>&gt;
 &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+
 </pre>
 </div>
 <p>Open from url</p>
@@ -33,16 +36,17 @@ toc = true
 
 // Markup
 &lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">id</span>=<span class="hljs-string">"ui-modal"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal-box hide"</span>&gt;
-    &lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal"</span>&gt;
-        &lt;span <span class="hljs-keyword">class</span>=<span class="hljs-string">"close"</span>&gt;&lt;/span&gt;
-        &lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal-header"</span>&gt;UI Modal&lt;/<span class="hljs-keyword">div</span>&gt;
-        &lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal-body"</span>&gt;... <span class="hljs-keyword">content</span> <span class="hljs-keyword">from</span> modal.html ...&lt;/<span class="hljs-keyword">div</span>&gt;
-    &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal"</span>&gt;
+&lt;span <span class="hljs-keyword">class</span>=<span class="hljs-string">"close"</span>&gt;&lt;/span&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal-header"</span>&gt;UI Modal&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"modal-body"</span>&gt;... <span class="hljs-keyword">content</span> <span class="hljs-keyword">from</span> modal.html ...&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
 &lt;/<span class="hljs-keyword">div</span>&gt;
 
 // modal.html
 &lt;p&gt;...&lt;/p&gt;
 &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-keyword">data</span>-<span class="hljs-keyword">action</span>=<span class="hljs-string">"modal-close"</span>&gt;<span class="hljs-keyword">Close</span>&lt;/a&gt;
+
 </pre>
 </div>
 <p>Direct open</p>
@@ -187,3 +191,4 @@ toc = true
 <h5>setWidth</h5>
 <pre class="code skip"><span class="hljs-variable">$(</span><span class="hljs-string">'#my-modal'</span>).modal(<span class="hljs-string">'setWidth'</span>, <span class="hljs-string">'800px'</span>);
 </pre>
+{{< /rawhtml >}}

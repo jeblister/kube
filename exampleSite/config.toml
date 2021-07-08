@@ -6,7 +6,7 @@ description = "Kube is a professional  and a responsive Hugo theme for developer
 Paginate = 4
 [Params]
   RSSLink = "/index.xml"
-  author = "newpixcom" # add your company name
+  author = "elemnts.net" # add your company name
   github = "" # add your github profile name
   twitter = "" # add your twitter profile
   email = "myemail@myaddress.xxx"

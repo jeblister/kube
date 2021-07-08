@@ -8,6 +8,8 @@ bref="Mixins are a great way to produce things and effects way faster with Sass 
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-get-started"><a href="#h-get-started">Get Started</a></h3>
 <p>Kube has been designed to help you with web development, that's why it's so easy to use Kube when building websites. To move forward quickly and efficiently, just link <code>kube.scss</code> from Kube package: this file contains variables, mixins and everything you need to simplify daily routine tasks.</p>
 <p>For example, import <code>kube.scss</code> into your <code>master.scss</code> styles file, which you will later compile into <code>master.css</code></p>
@@ -20,13 +22,14 @@ toc = true
 
 <span class="hljs-comment">// use mixins</span>
 <span class="hljs-selector-id">#my-layout</span> {
-    @<span class="hljs-keyword">include</span> flex;
+@<span class="hljs-keyword">include</span> flex;
 }
 
 <span class="hljs-comment">// use variables</span>
 <span class="hljs-selector-id">#my-layout</span> {
-    <span class="hljs-attribute">padding</span>: <span class="hljs-variable">$base-line</span>;
+<span class="hljs-attribute">padding</span>: <span class="hljs-variable">$base-line</span>;
 }
+
 </pre>
 <h3 class="section-head" id="h-fonts"><a href="#h-fonts">Fonts</a></h3>
 <p>Generates a font-family declarations for text, headings, buttons or inputs.</p>
@@ -38,6 +41,7 @@ toc = true
 @<span class="hljs-keyword">include</span> headings-font(<span class="hljs-string">"Lato, 'Helvetica Neue', sans-serif"</span>);
 @<span class="hljs-keyword">include</span> buttons-font(<span class="hljs-string">"Lato, 'Helvetica Neue', sans-serif"</span>);
 @<span class="hljs-keyword">include</span> inputs-font(<span class="hljs-string">"Lato, 'Helvetica Neue', sans-serif"</span>);
+
 </pre>
 <p>CSS Output</p>
 <pre class="code skip"><span class="hljs-comment">// Text</span>
@@ -47,18 +51,19 @@ toc = true
 
 <span class="hljs-comment">// Headings</span>
 <span class="hljs-selector-tag">h1</span><span class="hljs-selector-class">.title</span>, <span class="hljs-selector-tag">h1</span>, <span class="hljs-selector-tag">h2</span>, <span class="hljs-selector-tag">h3</span>, <span class="hljs-selector-tag">h4</span>, <span class="hljs-selector-tag">h5</span>, <span class="hljs-selector-tag">h6</span>, <span class="hljs-selector-class">.h1</span>, <span class="hljs-selector-class">.h2</span>, <span class="hljs-selector-class">.h3</span>, <span class="hljs-selector-class">.h4</span>, <span class="hljs-selector-class">.h5</span>, <span class="hljs-selector-class">.h6</span> {
-    <span class="hljs-attribute">font-family</span>: Lato, <span class="hljs-string">'Helvetica Neue'</span>, sans-serif;
+<span class="hljs-attribute">font-family</span>: Lato, <span class="hljs-string">'Helvetica Neue'</span>, sans-serif;
 }
 
 <span class="hljs-comment">// Buttons</span>
 <span class="hljs-selector-tag">button</span>, <span class="hljs-selector-class">.button</span> {
-    <span class="hljs-attribute">font-family</span>: Lato, <span class="hljs-string">'Helvetica Neue'</span>, sans-serif;
+<span class="hljs-attribute">font-family</span>: Lato, <span class="hljs-string">'Helvetica Neue'</span>, sans-serif;
 }
 
 <span class="hljs-comment">// Inputs</span>
 <span class="hljs-selector-tag">input</span>, <span class="hljs-selector-tag">textarea</span>, select {
-    <span class="hljs-attribute">font-family</span>: Lato, <span class="hljs-string">'Helvetica Neue'</span>, sans-serif;
+<span class="hljs-attribute">font-family</span>: Lato, <span class="hljs-string">'Helvetica Neue'</span>, sans-serif;
 }
+
 </pre>
 <h3 class="section-head" id="h-breakpoints"><a href="#h-breakpoints">Breakpoints</a></h3>
 <p>Breakpoint for small screens (max-width 768px by default).</p>
@@ -91,6 +96,7 @@ toc = true
 
 <span class="hljs-comment">// max-width 1024px;</span>
 <span class="hljs-variable">@include</span> breakpoint(<span class="hljs-number">0</span>, <span class="hljs-number">1024px</span>) {}
+
 </pre>
 <h3 class="section-head" id="h-grid"><a href="#h-grid">Grid</a></h3>
 <h5 id="h-grid-row">Row</h5>
@@ -112,7 +118,9 @@ toc = true
     <span class="hljs-attribute">-ms-flex-wrap</span>: wrap;
     <span class="hljs-attribute">-webkit-flex-wrap</span>: wrap;
     <span class="hljs-attribute">flex-wrap</span>: wrap;
+
 }
+
 </pre>
 <h5 id="h-grid-media">Media Grid</h5>
 <p>Generates a media grid. See <a href="/kube/docs/grid/#h-media-grid">live example</a>.</p>
@@ -131,20 +139,22 @@ toc = true
     -webkit-<span class="hljs-attribute">column-gap</span>: <span class="hljs-number">2%</span>;
     -moz-<span class="hljs-attribute">column-gap</span>: <span class="hljs-number">2%</span>;
     <span class="hljs-attribute">column-gap</span>: <span class="hljs-number">2%</span>;
+
 }
 
 <span class="hljs-selector-class">.my-media-grid</span> &gt; <span class="hljs-selector-tag">div</span> {
-    <span class="hljs-attribute">display</span>: inline-block;
-    <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+<span class="hljs-attribute">display</span>: inline-block;
+<span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
 }
 
 @<span class="hljs-keyword">media</span> (max-width: 768px) {
-    <span class="hljs-selector-class">.my-media-grid</span> {
-        -webkit-<span class="hljs-attribute">column-count</span>: <span class="hljs-number">1</span>;
-        -moz-<span class="hljs-attribute">column-count</span>: <span class="hljs-number">1</span>;
-        <span class="hljs-attribute">column-count</span>: <span class="hljs-number">1</span>;
-    }
+<span class="hljs-selector-class">.my-media-grid</span> {
+-webkit-<span class="hljs-attribute">column-count</span>: <span class="hljs-number">1</span>;
+-moz-<span class="hljs-attribute">column-count</span>: <span class="hljs-number">1</span>;
+<span class="hljs-attribute">column-count</span>: <span class="hljs-number">1</span>;
 }
+}
+
 </pre>
 <h3 class="section-head" id="h-flex"><a href="#h-flex">Flex</a></h3>
 <pre class="code skip"><span class="hljs-variable">@include</span> flex;
@@ -170,6 +180,7 @@ toc = true
 <span class="hljs-variable">@include</span> flex-item-one;
 <span class="hljs-variable">@include</span> flex-item-shrink($shrink);
 <span class="hljs-variable">@include</span> flex-item-width($width);
+
 </pre>
 <h3 class="section-head" id="h-gradients"><a href="#h-gradients">Gradients</a></h3>
 <h5 id="h-gradients-vertical">Vertical</h5>
@@ -207,6 +218,7 @@ toc = true
 <span class="hljs-comment">// custom transitions</span>
 <span class="hljs-meta">@include</span> transition(all .<span class="hljs-number">2</span>s ease-<span class="hljs-keyword">in</span>-<span class="hljs-keyword">out</span>);
 <span class="hljs-meta">@include</span> transition(opacity <span class="hljs-number">1</span>s ease-<span class="hljs-keyword">in</span>, width .<span class="hljs-number">2</span>s ease-<span class="hljs-keyword">in</span>);
+
 </pre>
 <h5 id="h-utils-transform">Transform</h5>
 <p>Provides a shorthand syntax for transforms.</p>
@@ -242,6 +254,7 @@ toc = true
 
 // $<span class="hljs-built_in">image</span>-type - jpg, png, gif
 // $<span class="hljs-built_in">image</span>-<span class="hljs-built_in">height</span> - optional
+
 </pre>
 <p>Example:</p>
 <pre class="code skip"><span class="hljs-selector-class">.brand</span> {
@@ -266,3 +279,4 @@ toc = true
             }
        }
 </pre>
+{{< /rawhtml >}}

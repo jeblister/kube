@@ -8,6 +8,8 @@ bref= "Breadcrumbs in Kube are formed as lists with default separator. This sepa
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-base"><a href="#h-base">Base</a></h3>
 <div class="example">
   <nav class="breadcrumbs">
@@ -90,10 +92,12 @@ toc = true
 
 <span class="hljs-comment">// html</span>
 <span class="hljs-params">&lt;nav id="breadcrumbs-custom-separator" class="breadcrumbs"&gt;</span>
-    <span class="hljs-params">&lt;ul&gt;</span>
-        <span class="hljs-params">&lt;li&gt;</span><span class="hljs-params">&lt;a href=""&gt;</span>...<span class="hljs-params">&lt;/a&gt;</span><span class="hljs-params">&lt;/li&gt;</span>
-        <span class="hljs-params">&lt;li&gt;</span><span class="hljs-params">&lt;span&gt;</span>...<span class="hljs-params">&lt;/span&gt;</span><span class="hljs-params">&lt;/li&gt;</span>
-    <span class="hljs-params">&lt;/ul&gt;</span>
+<span class="hljs-params">&lt;ul&gt;</span>
+<span class="hljs-params">&lt;li&gt;</span><span class="hljs-params">&lt;a href=""&gt;</span>...<span class="hljs-params">&lt;/a&gt;</span><span class="hljs-params">&lt;/li&gt;</span>
+<span class="hljs-params">&lt;li&gt;</span><span class="hljs-params">&lt;span&gt;</span>...<span class="hljs-params">&lt;/span&gt;</span><span class="hljs-params">&lt;/li&gt;</span>
+<span class="hljs-params">&lt;/ul&gt;</span>
 <span class="hljs-params">&lt;/nav&gt;</span>
+
 </pre>
 </div>
+{{< /rawhtml >}}

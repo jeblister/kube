@@ -7,6 +7,8 @@ toc = true
 bref = "As a complete and self-sufficient web framework, Kube is here to help you get the most out of your daily work. Kube takes care of routine stuff, saving you precious time for things that you love. Starting up with Kube is ridiculously fast you can start in under a minute. Here's how to set up Kube, and what basic customization are available out-of-the-box."
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-basic-template"><a href="#h-basic-template">Basic Template</a></h3>
 
 <p>With Kube, you can set up your web framework and be on your way in under a minute. Just add this code to your web page for the basic template to take effect immediately.</p>
@@ -32,7 +34,6 @@ bref = "As a complete and self-sufficient web framework, Kube is here to help yo
 <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></pre>
 
-
 <h3 class="section-head" id="h-supported-browsers"><a href="#h-supported-browsers">Supported Browsers</a></h3>
 
 <p>Kube supports the latest, stable releases of all major browsers:</p>
@@ -44,7 +45,6 @@ bref = "As a complete and self-sufficient web framework, Kube is here to help yo
     <li>Microsoft Edge</li>
     <li>Internet Explorer 11</li>
 </ul>
-
 
 <h3 class="section-head" id="h-development"><a href="#h-development">Development with Kube</a></h3>
 
@@ -72,10 +72,11 @@ bref = "As a complete and self-sufficient web framework, Kube is here to help yo
 
 <p>Also, you could use settings from <code>variables.scss</code>:</p>
 
-
 <pre class="code"><span class="hljs-comment">// master.scss</span>
 @<span class="hljs-keyword">import</span> <span class="hljs-string">"dist/scss/kube.scss"</span>;
 
 <span class="hljs-selector-id">#my-layout</span> {
     <span class="hljs-attribute">padding</span>: <span class="hljs-variable">$base-line</span>;
 }</pre>
+
+{{< /rawhtml >}}

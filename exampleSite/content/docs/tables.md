@@ -8,6 +8,8 @@ toc = true
 bref = "Tables are an essential part of many different contexts. Kube serves them all and delivers full variety of tables, preformatted to save you time. Whatever your requirements are, tables are completely customizable to match them."
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-base"><a href="#h-base">Base</a></h3>
 <div class="example">
   <table>
@@ -194,3 +196,4 @@ bref = "Tables are an essential part of many different contexts. Kube serves the
 <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></pre>
 </div>
+{{< /rawhtml >}}

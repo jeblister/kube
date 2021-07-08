@@ -8,6 +8,8 @@ bref="Collapsable elements are horizontally aligned tabs, in a way. Jokes aside,
 toc = true
 +++
 
+{{< rawhtml >}}
+
 <h3 class="section-head" id="h-base"><a href="#h-base">Base</a></h3>
 <div class="example">
   <div class="my-collapse" data-component="collapse" id="my-collapse">
@@ -191,6 +193,7 @@ toc = true
     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"collapse-box hide"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"box-3"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
 </pre>
 </div>
 <h5>open</h5>
@@ -205,3 +208,4 @@ toc = true
 <h5>closeAll</h5>
 <pre class="code skip"><span class="hljs-variable">$(</span><span class="hljs-string">'#my-collapse'</span>).collapse(<span class="hljs-string">'closeAll'</span>);
 </pre>
+{{< /rawhtml >}}
