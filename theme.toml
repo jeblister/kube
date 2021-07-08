@@ -24,10 +24,10 @@ features = ["Minimalism","Mobile-first Design",
   "Block Templates",
   "Table of Contents",
   "SEO Site Verification"]
-module:
-  hugoVersion:
-    extended: false
-    min: "0.84.0"
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.84.0"
 [author]
   name = "jeblister"
   homepage = "http://findme.surge.sh/"
