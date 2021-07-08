@@ -52,18 +52,18 @@ bref = "As a complete and self-sufficient web framework, Kube is here to help yo
 </p>
 
 <p>
-    For example, import kube.scss into your master.scss styles file, which you will later compile into <code>master.css</code>:
+    For example, import kube.scss into your main.scss styles file, which you will later compile into <code>main.css</code>:
 </p>
 
-<pre class="code"><span class="hljs-comment">// master.scss</span>
+<pre class="code"><span class="hljs-comment">// main.scss</span>
 @<span class="hljs-keyword">import</span> <span class="hljs-string">"dist/scss/kube.scss"</span>;</pre>
 
 <p>
-    Now all Kube's variables and mixins are readily available in <code>master.scss</code>,
+    Now all Kube's variables and mixins are readily available in <code>main.scss</code>,
     and you can use them whenever needed. For instance, here's how one of examples:
 </p>
 
-<pre class="code"><span class="hljs-comment">// master.scss</span>
+<pre class="code"><span class="hljs-comment">// main.scss</span>
 <span class="hljs-keyword">@import</span> <span class="hljs-string">"dist/scss/kube.scss"</span>;
 
 <span class="hljs-selector-id">#sidebar</span> {
@@ -72,7 +72,7 @@ bref = "As a complete and self-sufficient web framework, Kube is here to help yo
 
 <p>Also, you could use settings from <code>variables.scss</code>:</p>
 
-<pre class="code"><span class="hljs-comment">// master.scss</span>
+<pre class="code"><span class="hljs-comment">// main.scss</span>
 @<span class="hljs-keyword">import</span> <span class="hljs-string">"dist/scss/kube.scss"</span>;
 
 <span class="hljs-selector-id">#my-layout</span> {

@@ -2,13 +2,13 @@
 
 `kube` Kube is a professional  and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog.
 
-I create this theme  based on the `Version 6.5.2` [Kube Framework](https://imperavi.com/kube/). 
+I create this theme  based on the `Version 6.5.2` [Kube Framework](https://kube6.imperavi.com/). 
 
 ![kube hugo landingPage](https://cldup.com/RjWtdJZNae.png)
 
 # Demo
 
-To see this theme in action, check out [kube project](http://kube.elemnts.org) which is rendered with this theme and some conetnt for documentation and blog posts.
+To see this theme in action, check out [kube project](http://kube.elemnts.net) which is rendered with this theme and some content for documentation and blog posts.
 
 ## Features
 
@@ -70,7 +70,7 @@ There are a few concepts this theme employs to make a personal documentation sit
 
 ```
 
-It also assumes you want to display three types of content `docs` and `blog` and some pages : the `faq`, `company` and `sign-in` pages and and display links to this pages in the menu. This guide will take you through the steps to configure your documentation site to use the theme.
+It also assumes you want to display three types of content `docs` and `blog` and some pages : the `faq`, `company` and `sign-in` pages and display links to this pages in the menu. This guide will take you through the steps to configure your documentation site to use the theme.
 
 ### Configuring you website
 
@@ -92,7 +92,7 @@ In this case you would want to add `author = "your name"` variable like your nam
 Verify your site with several webmaster tools including Google, Bing, Alexa and Yandex. To allow verification of your site with any or all of these providers simply add the following to your `config.toml` and fill in their respective values:
 
 ```toml
-[params.seo.webmaster_verifications]
+[Params.seo.webmaster_verifications]
   google = "" # Optional, Google verification code
   bing = "" # Optional, Bing verification code
   alexa = "" # Optional, Alexa verification code
@@ -165,13 +165,13 @@ There's only one rule...there are no rules.
 
 MIT
 
-## Credit 
+## Credits
 
-- [kube framework] (https://imperavi.com/kube/)
-- [after dark theme] (https://github.com/comfusion/after-dark)
+- [kube framework](https://imperavi.com/kube/)
+- [after dark theme](https://github.com/comfusion/after-dark)
 
 ## Contact
 
 This is the second theme I've made for Hugo, so I'm sure I've done some things wrong or assumed too much. If you have ideas or things that should be fixed, please let me know.
 
-- [Mohamed JEBLI](http://findme.surge.sh) [@jebli_7](http://twitter.com/jebli_7)
+- [Mohamed JEBLI](http://about.elemnts.org/) [@jebli_7](http://twitter.com/jebli_7)

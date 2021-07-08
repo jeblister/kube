@@ -397,7 +397,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
     	},
     	isTabletScreen: function()
     	{
-    		return ($(window).width() >= 768 && $(window).width() <= 1024);
+    		return ($(window).width() > 768 && $(window).width() <= 1024);
     	},
     	isDesktopScreen: function()
     	{

@@ -46,18 +46,18 @@
 
         <div class="form-subscribe-twitter">
           <div>or</div>
-          <a href="http://twitter.com/jebli_7">Follow us on Twitter</a>
+          <a href="https://twitter.com/jebli_7">Follow us on Twitter</a>
         </div>
       </div>
-    </div>
 
-    <div class="">
-      {{ partial "post/byauthor" . }} {{ partial "post/related-content" . }}
-    </div>
+      <div class="">
+        {{ partial "post/byauthor" . }} {{ partial "post/related-content" . }}
+      </div>
 
-    {{ if .Site.DisqusShortname }}
-    <article>{{ template "_internal/disqus.html" . }}</article>
-    {{ end }}
+      {{ if .Site.DisqusShortname }}
+      <article>{{ template "_internal/disqus.html" . }}</article>
+      {{ end }}
+    </div>
   </div>
+  {{ end }} {{ define "footer"}} {{ partial "footer.html" .}} {{ end }}
 </div>
-{{ end }} {{ define "footer"}} {{ partial "footer.html" .}} {{ end }}
