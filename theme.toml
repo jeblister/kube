@@ -23,7 +23,7 @@ features = ["Minimalism","Mobile-first Design",
   "Block Templates",
   "Table of Contents",
   "SEO Site Verification"]
-min_version = 0.19
+min_version = 0.84.1
 
 [author]
   name = "jeblister"
