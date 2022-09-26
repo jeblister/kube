@@ -1,5 +1,4 @@
-{{ define "title"}} {{ .Title}} {{end}} {{ define "header"}} {{ partial "header"
-.}} {{end}} {{ define "main"}}
+{{ define "title"}} {{ .Title}} {{end}} {{ define "header"}} {{ partial "header" }} {{end}} {{ define "main"}}
 <div class="push-center" itemscope itemtype="http://schema.org/BlogPosting">
   {{ template "_internal/schema.html" . }}
   <div id="hero">
@@ -53,11 +52,11 @@
       <div class="">
         {{ partial "post/byauthor" . }} {{ partial "post/related-content" . }}
       </div>
-
-      {{ if .Site.DisqusShortname }}
-      <article>{{ template "_internal/disqus.html" . }}</article>
-      {{ end }}
+        {{ if .Site.DisqusShortname }}
+        <article>{{ template "_internal/disqus.html" . }}</article>
+        {{ end }}
+      </div>
     </div>
   </div>
   {{ end }} {{ define "footer"}} {{ partial "footer.html" .}} {{ end }}
-</div>
+
