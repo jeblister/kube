@@ -1,4 +1,6 @@
-{{ define "title"}} {{ .Title}} {{end}} {{ define "header"}} {{ partial "header" }} {{end}} {{ define "main"}}
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
 <div class="push-center" itemscope itemtype="http://schema.org/BlogPosting">
   {{ template "_internal/schema.html" . }}
   <div id="hero">
