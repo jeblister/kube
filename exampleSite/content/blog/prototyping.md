@@ -10,7 +10,7 @@ weight = 30
 
 {{< rawhtml >}}
 <img data-src="https://cldup.com/3tov0aCFh8.png" class="lazyload">
-{{< rawhtml >}}
+{{< /rawhtml >}}
 
 I have been working on a large set of documentation for a prototype that will eventually make it into a product. One issue with the publishing system at my company is that it makes doing prototypes, or really anything not within the rigidly and narrowly scoped model, difficult to set up. It takes a lot of work just to get to the point where you can begin writing.
 
